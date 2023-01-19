@@ -2,7 +2,6 @@
 
 # Port Anpassung Switch SW1, SW2, SW3, SW4
 
-## Analyse Verbindungen SW1
+## Protokol
 
-<p>Test<p>
-Test
+<p>Ping zwischen Edge1 und Core 1 funtkioniert, in beide richtungen<p>
