@@ -24,7 +24,7 @@
 
                 ip address 10.103.64.14 255.255.255.252
 
-<p>Vorgeneommene Konfiguration überprüfen</p>
+<p>Vorgenommene Konfiguration überprüfen</p>
 
                 show ip interface brief
 
@@ -56,7 +56,7 @@
 
                 no shut
 
-<p>Vorgeneommene Konfiguration überprüfen</p>
+<p>Vorgenommene Konfiguration überprüfen</p>
 
 ![Bild SW2_showipinterfacebrief](Bilder/SW2_showipinterfacebrief.png)
 
@@ -86,6 +86,6 @@
 
                 no shut
 
-<p>Vorgeneommene Konfiguration überprüfen</p>
+<p>Vorgenommene Konfiguration überprüfen</p>
 
 ![Bild SW4_showipinterfacebrief](Bilder/SW4_showipinterfacebrief.png)
