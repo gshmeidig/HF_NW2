@@ -7,6 +7,7 @@
 <p>Ping zwischen Edge1 und Core 1 funtkioniert, in beide richtungen</p>
 
 ## SW2
+<p> Status der Switch-Ports abrufen um zu schauen welche Ports den Status "Down" haben.</p>
 
-                `show ip interface brief`
+                show ip interface brief
 
