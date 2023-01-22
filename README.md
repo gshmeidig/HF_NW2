@@ -86,6 +86,30 @@
 
                 no shut
 
+<p>Interface 3/1 auswählen</p>
+
+                interface g3/1
+
+<p>Port Starten</p>
+
+                no shut
+
+<p>Interface 3/2 auswählen</p>
+
+                interface g3/2
+
+<p>Port Starten</p>
+
+                no shut
+
+<p>Interface 3/3 auswählen</p>
+
+                interface g3/3
+
+<p>Port Starten</p>
+
+                no shut
+                
 <p>Vorgenommene Konfiguration überprüfen</p>
 
 ![Bild SW4_showipinterfacebrief](Bilder/SW4_showipinterfacebrief.png)
