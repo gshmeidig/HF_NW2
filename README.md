@@ -8,5 +8,5 @@
 
 ## SW2
 
-                \`shwo ip interfce brief`\
+                `show ip interface brief`
 
