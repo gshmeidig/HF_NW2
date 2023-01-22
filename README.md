@@ -4,7 +4,7 @@
 
 <p> Status der Switch-Ports abrufen um zu schauen welche Ports den Status "Down" haben.</p>
                 show ip interface brief
-![Bild SW2_showipinterfacebrief](https://example.com/bild.jpg)
+![Bild SW2_showipinterfacebrief](Bilder/SW2_showipinterfacebrief.png)
 
 <p>In Admin Modus wechseln</p>
                 en
