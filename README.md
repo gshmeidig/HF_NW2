@@ -1,13 +1,19 @@
 ## HF – NW2 GNS3 Labor 1
 
-# Port Anpassung Switch SW1, SW2, SW3, SW4
+## Analyse SW2
 
-## Protokol
-
-<p>Ping zwischen Edge1 und Core 1 funtkioniert, in beide richtungen</p>
-
-## SW2
 <p> Status der Switch-Ports abrufen um zu schauen welche Ports den Status "Down" haben.</p>
-
                 show ip interface brief
+![Bild SW2_showipinterfacebrief](https://example.com/bild.jpg)
 
+<p>In Admin Modus wechseln</p>
+                en
+
+<p>Konfiguration aufrufen und mit "t" den Terminal-Modus auswählen.</p>
+                conf t
+
+<p>Interfaces 3/0 auswählen</p>
+                interface g3/0
+
+<p>Port Starten</p>
+                no shut
