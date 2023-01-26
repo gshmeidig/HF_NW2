@@ -1,5 +1,31 @@
 ## HF – NW2 GNS3 Labor 1
 
+## Vorgehen
+
+<p>Allgemeines Vorgehen, von Edge1 rückwerts verscuht IP und Hostname Ping</p> 
+
+## Core1
+
+<p>Vieleicht Flasch</p>
+
+                ip dns set servers=8.8.8.8,8.8.4.4 allow-remote-requests=yes max-udp-packet-size=4096 query-server-timeout=2.000 query-total-timeout=10.000 cache-size=2048 cache-max-ttl=7d
+
+## R1
+
+<p>Ping funktioniert nicht. Routing erstellt</p>
+
+                 ip route/add dst-address=0.0.0.0/0 gateway=10.103.64.5
+
+
+## R2
+
+<p>Port em0 Ip Angepasst, auf 10.103.64.10/30</p>
+
+<p>Port em1 Ip Angepasst, auf 10.103.8.1/21 mit DHCP Aktiv von 10.103.8.2 - 10.103.15.254</p>
+
+
+
+
 ## Analyse R3
 
 <p>Status der Interfaces abrufen</p>
@@ -30,6 +56,15 @@
 
 ![Bild R3_showipinterfacebrief](Bilder/R3_showipinterfacebrief.png)
 
+<p>IP Route erfasse</p>
+
+                ip route 0.0.0.0 0.0.0.0 10.103.64.13
+
+<p>alte IP Route erfasse</p>
+
+                no ip route 0.0.0.0 0.0.0.0 10.100.64.13
+
+copy
 ## Analyse SW1
 
 ## Analyse SW2
