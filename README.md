@@ -34,6 +34,8 @@
 
 ## Analyse SW2
 
+### Interface Starten
+
 <p>Status der Switch-Ports abrufen um zu schauen welche Ports den Status "Down" haben.</p>
 
                 show ip interface brief
@@ -60,7 +62,22 @@
 
 ![Bild SW2_showipinterfacebrief](Bilder/SW2_showipinterfacebrief.png)
 
+<p>Geänderte Configuration speichern, damit nicht bei einem Neustart alles neu konfiguriert werden muss </p>
+
+                copy running-config startup-config
+
 ## Analyse SW3
+
+### vlan Anzeigen
+
+<p>Vlan anzeigen</p>
+
+                show vlan
+
+<p> </p>
+
+
+
 
 ## Analyse SW4
 
@@ -113,3 +130,7 @@
 <p>Vorgenommene Konfiguration überprüfen</p>
 
 ![Bild SW4_showipinterfacebrief](Bilder/SW4_showipinterfacebrief.png)
+
+<p>Geänderte Configuration speichern, damit nicht bei einem Neustart alles neu konfiguriert werden muss </p>
+
+                copy running-config startup-config
