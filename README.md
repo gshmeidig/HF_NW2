@@ -69,6 +69,16 @@ copy
 
 ## Analyse SW2
 
+### Vlan zu fehlenden Ports hinzufügen
+
+
+                R1# configure terminal
+                R1(config)# interface FastEthernet0/1
+                R1(config-if)# switchport mode access
+                R1(config-if)# switchport access vlan 10
+                R1(config-if)# exit
+                R1(config)# write memory
+
 ### Interface Starten
 
 <p>Status der Switch-Ports abrufen um zu schauen welche Ports den Status "Down" haben.</p>
