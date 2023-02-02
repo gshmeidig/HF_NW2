@@ -73,7 +73,7 @@ copy
 
 
                 R1# configure terminal
-                R1(config)# interface FastEthernet0/1
+                R1(config)# interface g3/1
                 R1(config-if)# switchport mode access
                 R1(config-if)# switchport access vlan 10
                 R1(config-if)# exit
