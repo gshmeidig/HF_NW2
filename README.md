@@ -69,6 +69,8 @@ copy
 
 ### Vlan zu fehlenden Ports hinzufügen
 
+<p>Dies wurde für die Ports g3/0, g3/1, g3/2 angepasst</p>
+
 
                 R1# configure terminal
                 R1(config)# interface g3/1
@@ -80,6 +82,8 @@ copy
 ## Analyse SW2
 
 ### Vlan zu fehlenden Ports hinzufügen
+
+<p>Dies wurde für die Ports g3/3, g3/1, g3/2 angepasst</p>
 
 
                 R1# configure terminal
@@ -149,6 +153,8 @@ copy
 ## Analyse SW4
 
 ### Vlan zu fehlenden Ports hinzufügen
+
+<p>Dies wurde für die Ports g3/3, g3/1, g3/2 angepasst</p>
 
 
                 R1# configure terminal
