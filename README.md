@@ -103,11 +103,23 @@ copy
 
 ## Analyse SW3
 
-### vlan Anzeigen
+### Spanning Tree Deaktivierung
 
-<p>Vlan anzeigen</p>
+<p>In Admin Modus wechseln: </p>
 
-                show vlan
+                en
+                
+<p>In die Konfig wechseln: </p>
+
+                conf t
+                
+<p>In jeweiligen Port wechseln (wir haben spanning tree bei den Ports g3/0 - g3/3 deaktiviert): </p>
+
+                g3/1
+                
+<p>Spanning-Tree Deaktivieren: </p>
+
+                no spanning-tree portfast edge
 
 <p> </p>
 
